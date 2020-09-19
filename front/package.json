@@ -1,5 +1,5 @@
 {
-  "name": "kytwitter",
+  "name": "kytnitter",
   "version": "1.0.0",
   "description": "Twitter Clone Coding",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "LEEKY",
   "license": "ISC",
   "dependencies": {
+    "firebase": "^7.21.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
