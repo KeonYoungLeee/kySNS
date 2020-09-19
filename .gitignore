@@ -106,3 +106,7 @@ dist
 # uploads file
 .uploads/
 uploads/
+
+# dist file
+.dist/
+dist/
