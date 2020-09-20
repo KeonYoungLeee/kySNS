@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import firebase from 'firebase';
+import firebase from './src/firebaseinstance';
 
 import { hot } from 'react-hot-loader/root';
 

@@ -4,9 +4,7 @@ import { authService } from './firebaseinstance';
 
 const App = () => {
 
-  
   const [isLoggedIn, setIsLoggedIn] = useState(authService.currentUser);
-
   
   return (
     <>
