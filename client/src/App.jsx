@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import AppRouter from './components/AppRouter';
-import { authService } from './firebaseinstance';
+import {authService} from './firebaseinstance'
 
 const App = () => {
 
