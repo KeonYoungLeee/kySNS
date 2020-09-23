@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { authService, firebaseInstance } from '../fbase';
 
 const Auth = () => {
@@ -14,7 +14,7 @@ const Auth = () => {
     setPassword(event.target.value); 
   };
   
-  const onSubmit = async (event) => {
+  const onSubmit = useCallback(async (event) => {
     event.preventDefault();
     try {
       let data;
@@ -27,7 +27,7 @@ const Auth = () => {
     } catch (error) {
       setError(error.message);
     }
-  };
+  }, [email, password, error]);
 
   const togleAccout = () => {
     setNewAccount(prev => !prev);
